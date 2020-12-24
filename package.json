@@ -1,0 +1,43 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "This project is a Web APP for my curriculum",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toxiicsab/curriculum-vitae.git"
+  },
+  "keywords": [
+    "curriculum"
+  ],
+  "author": "Yeison Garzon T.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Toxiicsab/curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/Toxiicsab/curriculum-vitae#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0",
+    "particles.js": "^2.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "engines": {
+    "node": "14.15.0",
+    "npm": "6.14.8"
+  }
+}
